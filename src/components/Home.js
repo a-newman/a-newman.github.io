@@ -1,8 +1,17 @@
 import React from "react";
+import { IoIosArrowForward } from "react-icons/io";
 import me from "../images/me.jpg";
+import cv from "../documents/Anelise_Newman_CV.pdf";
 
 import "./Home.css";
 import "../global-styles.css";
+
+const ProfLink = props => (
+  <p className="links-elt">
+    <a href={props.href}>{props.name}</a>
+    <IoIosArrowForward className="link-arrow-icon" />
+  </p>
+);
 
 function HomePage() {
   return (
@@ -20,6 +29,15 @@ function HomePage() {
           span computer vision, cognitive science, and HCI. I recently finished
           my undergraduate at MIT.
         </p>
+        <div className="links-flexbox">
+          <ProfLink name="CV" href={cv} />
+          <ProfLink
+            name="LinkedIn"
+            href={"https://www.linkedin.com/in/anelise-newman/"}
+          />
+          <ProfLink name="Github" href={"https://github.com/a-newman/"} />
+          <ProfLink name="Email" href={"mailto:apnewman@mit.edu"} />
+        </div>
       </div>
     </div>
   );

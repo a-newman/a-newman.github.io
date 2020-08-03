@@ -8,10 +8,43 @@
 :root {
   --background-color: #FFF;
   --sidebar-color: rgba(0, 0, 0, 0.04);
-  --text-color-muted: rgba(0, 0, 0, 0.5);
+  --text-color-muted: rgba(0, 0, 0, 0.6);
+  --link-hover-color: rgba(0, 0, 0, 0.8)
 }
 
 body {
-  font-family: Cambria, Georgia, serif;
+  font-family: Montserrat, Arial, sans-serif;
+  line-height: 1.8;
+  color: var(--text-color-muted);
+  font-size: 18px;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+.links-flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.links-elt {
+  color: var(--text-color-muted);
+  border-bottom: 1px solid var(--text-color-muted);
+  margin: 20px;
+  display: block;
+  line-height: 1.2;
+}
+
+.link-arrow-icon {
+  margin-bottom: -0.1em;
+}
