@@ -1,0 +1,22 @@
+.background {
+  background-color: var(--background-color);
+}
+
+.sidebar {
+  background-color: var(--sidebar-color);
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 25%;
+}
+
+.sidebar-name {
+  padding: 2em 0em 2em;
+}
+
+.sidebar-link {
+  padding-bottom: 0.5em;
+  color: var(--text-color-muted);
+  font-family: Montserrat, Arial, sans-serif;
+}

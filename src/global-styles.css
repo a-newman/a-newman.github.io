@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  --background-color: #FFF;
+  --sidebar-color: rgba(0, 0, 0, 0.04);
+  --text-color-muted: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: Cambria, Georgia, serif;
+}
+
