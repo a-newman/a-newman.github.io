@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
   return (
     <div className="background">
       <Sidebar />
-      {children}
+      <div className="main">{children}</div>
     </div>
   );
 };

@@ -5,10 +5,12 @@
 .sidebar {
   background-color: var(--sidebar-color);
   position: fixed;
+  height: 100%;
+  z-index: 1;
   bottom: 0;
   top: 0;
   left: 0;
-  width: 25%;
+  width: 35%;
 }
 
 .sidebar-name {
@@ -19,4 +21,12 @@
   padding-bottom: 0.5em;
   color: var(--text-color-muted);
   font-family: Montserrat, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.main {
+  float: right;
+  padding: 0em 3em;
+  margin-left: 35%;
+  height: 100vh;
 }
