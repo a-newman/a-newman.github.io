@@ -1,14 +1,16 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 
 import "./Layout.css";
 import "../global-styles.css";
 
 const SidebarLink = props => (
   <div className="sidebar-link">
-    <Link to={props.to}>
-      <h3>{props.name}</h3>
-    </Link>
+    <h3>
+      <NavLink to={props.to} exact activeClassName="sidebar-link-active">
+        {props.name}
+      </NavLink>
+    </h3>
   </div>
 );
 
