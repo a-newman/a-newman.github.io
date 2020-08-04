@@ -1,0 +1,17 @@
+p {
+  margin: 2em;
+}
+
+.personal-pic-container {
+  width: 200px;
+  height: 200px;
+  margin: 1em;
+}
+
+.louie {
+  float: left;
+}
+
+.brassrat {
+  float: right;
+}

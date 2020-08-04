@@ -14,7 +14,8 @@
 }
 
 .sidebar-name {
-  padding: 2em 0em 2em;
+  padding: 2em;
+  color: var(--text-color-full);
 }
 
 .sidebar-link {

@@ -9,7 +9,8 @@
   --background-color: #FFF;
   --sidebar-color: rgba(0, 0, 0, 0.04);
   --text-color-muted: rgba(0, 0, 0, 0.6);
-  --link-hover-color: rgba(0, 0, 0, 0.9)
+  --link-hover-color: rgba(0, 0, 0, 0.9);
+  --text-color-full: rgba(0, 0, 0, 1);
 }
 
 body {
@@ -28,23 +29,9 @@ a:hover {
   color: var(--link-hover-color);
 }
 
-.links-flexbox {
+.vertical-center {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  align-content: center;
-  justify-content: space-around;
-}
-
-.links-elt {
-  color: var(--text-color-muted);
-  border-bottom: 1px solid var(--text-color-muted);
-  margin: 20px;
-  display: block;
-  line-height: 1.2;
-}
-
-.link-arrow-icon {
-  margin-bottom: -0.1em;
+  height: 100%; 
 }
