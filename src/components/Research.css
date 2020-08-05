@@ -8,12 +8,32 @@
   font-weight: normal;
 }
 
-.publication-section-container p {
-  margin: 0px;
+.project-sections-header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--button-color);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.project-sections-header-label {
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+.section-title {
+  text-align: left;
+  color: var(--text-color-full);
+  font-size: 1.5em;
+  margin: 0.5em 0em;
 }
 
 .project-title {
   color: var(--text-color-full);
+}
+
+.project-abstract {
+  margin: 0.5em 0em;
 }
 
 .project-links-container {
@@ -36,4 +56,8 @@
 .project-picture img, video {
   width: 100%;
   margin: 0.5em 0em;
+}
+
+.spacer {
+  height: 1em;
 }
