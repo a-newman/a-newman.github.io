@@ -26,13 +26,15 @@
   transition: width 1s;
 }
 
-.sidebar-link-active {
-  color: var(--link-hover-color);
-}
-
 .sidebar-link a {
   position: relative;
   border-bottom: none;
+  color: var(--text-color-muted);
+  text-decoration: none;
+}
+
+a.sidebar-link-active {
+  color: var(--link-hover-color);
 }
 
 .sidebar-link a::before {

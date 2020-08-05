@@ -11,9 +11,7 @@ const IconLinkButton = props => {
   return (
     <a href={props.href}>
       <div className="project-link-elt">
-        <span>
-          <Icon />
-        </span>
+        <Icon size="2em" className="icon" />
         {props.name}
       </div>
     </a>

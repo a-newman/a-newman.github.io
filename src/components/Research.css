@@ -46,11 +46,20 @@
   margin: 0.5em 0em;
 }
 
+.project-links-container a {
+  color: var(--text-color-muted);
+}
+
 .project-link-elt {
+  display: flex;
   background-color: var(--button-color);
   border-radius: 5px;
   margin-right: 1em;
   padding: 10px;
+}
+
+.project-link-elt .icon {
+  margin-right: 0.5em;
 }
 
 .project-picture img, video {

@@ -1,3 +1,5 @@
+
+
 .links-flexbox {
   display: flex;
   flex-direction: row;
@@ -8,8 +10,8 @@
 }
 
 .links-elt {
-  color: var(--text-color-muted);
-  border-bottom: 1px solid var(--text-color-muted);
+  color: var(--acent-color);
+  border-bottom: 1px solid var(--accent-color);
   margin: 20px;
   display: block;
   line-height: 1.2;
