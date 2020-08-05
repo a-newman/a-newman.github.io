@@ -1,8 +1,6 @@
 import React from "react";
-// import * as MdIcons from "react-icons/md";
 import * as IoIcons from "react-icons/io";
 import data from "./Research.yaml";
-import louie from "../images/louie.jpg";
 
 import "./Research.css";
 import "../global-styles.css";
@@ -37,28 +35,39 @@ const Section = props => {
 
 const Publication = props => {
   const authorList = props.authors
-    .map((author, i) => {
-      const isMe = author.includes("Anelise Newman");
-      const key = `author${i}`;
-      return isMe ? <b key={key}>{author}</b> : <span key={key}>{author}</span>;
-    })
-    .reduce((prev, curr) => [prev, ", ", curr]);
+    ? props.authors
+        .map((author, i) => {
+          const isMe = author.includes("Anelise Newman");
+          const key = `author${i}`;
+          return isMe ? (
+            <b key={key}>{author}</b>
+          ) : (
+            <span key={key}>{author}</span>
+          );
+        })
+        .reduce((prev, curr) => [prev, ", ", curr])
+    : null;
 
-  const images = require.context("../images/", true);
-  const imageSrc = images("./" + props.imageSrc);
+  const src = require.context("../", true);
+  const getPath = path => src("./" + path);
 
   return (
     <div className="publication-section-container">
       <div>
-        <h3 className="project-title">{props.title}</h3>
-        <h5 className="project-authors">{authorList}</h5>
+        <h3 className="project-title">
+          <b>{props.title}</b>
+        </h3>
+        {authorList && <h5 className="project-authors">{authorList}</h5>}
         <h5 className="project-venue">
-          <i>{props.venue}</i>
+          <i>
+            <span dangerouslySetInnerHTML={{ __html: props.venue }}></span>
+          </i>
         </h5>
         {props.abstract && (
           <p>
             <b>Abstract. </b>
-            {props.abstract}
+            <span dangerouslySetInnerHTML={{ __html: props.abstract }}></span>
+            {/* {props.abstract} */}
           </p>
         )}
         {props.links && (
@@ -75,7 +84,16 @@ const Publication = props => {
         )}
         {props.imageSrc && (
           <div className="project-picture">
-            <img src={imageSrc} alt={props.imageAlt} />
+            <img src={getPath(props.imageSrc)} alt={props.imageAlt} />
+          </div>
+        )}
+        {props.videoSrc && (
+          <div className="project-video">
+            <video
+              src={getPath(props.videoSrc)}
+              alt={props.videoAlt}
+              controls
+            ></video>
           </div>
         )}
       </div>

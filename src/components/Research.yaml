@@ -1,26 +1,43 @@
-sections: 
-- name: Publications
-  items: 
-  - title: Multimodal Memorability Modeling Effects of Semantics and Decay on Video Memorability
-    authors: 
-    - Anelise Newman* 
-    - Camilo Fosco* 
-    - Vincent Casser
-    - Barry McNamara
-    - Allen Lee
-    - Aude Oliva
-    venue: ECCV 2020
-    imageSrc: louie.jpg
-  - title: A project about Louie
-    authors: 
-    - Anelise Newman
-    - Louie
-    venue: ECCV
-    imageSrc: louie.jpg
-    imageAlt: my dog louie
-    abstract: Here is some abstract text
-    links: 
-    - name: Louie
-      iconName: "IoMdDocument"
-      href: ./images/louie.jpg
-
+---
+sections:
+  - name: Publications
+    items:
+      - title: "Multimodal Memorability: Modeling Effects of Semantics and Decay on Video Memorability"
+        authors:
+          - Anelise Newman*
+          - Camilo Fosco*
+          - Vincent Casser
+          - Barry McNamara
+          - Allen Lee
+          - Aude Oliva
+        venue: ECCV 2020
+        imageSrc: images/semantic_memnet_predictions.png
+        imageAlt: Memorability decay predictions from our model, SemanticMemNet
+        abstract: A key capability of an intelligent decision making system is to decipher which events should be remembered, which ones can be forgotten and when to make an intervention to revive a decaying memory. Here, we model for the first time the human memory decay of visual events. We propose a new mathematical formulation of memorability decay and create a multimodal model that combines visual and semantic information to fully represent the meaning of events. We show that our model can estimate with high accuracy both the memorability strength of a video clip and its decay curve. Our model establishes new state of the art performances in predicting the memorability of events and how long a given memory will last.
+        links:
+          - name: Memento Game
+            iconName: IoLogoGameControllerA
+            href: "https://memento-game.csail.mit.edu/"
+      - title: "TurkEyes: A Web-Based Toolbox for Crowdsourcing Attention Data"
+        authors:
+          - Anelise Newman
+          - Barry McNamara
+          - Camilo Fosco
+          - Yun Bin Zhang
+          - Pat Sukhum
+          - Matthew Tancik
+          - Nam Wook Kim
+          - Zoya Bylinskii
+        venue: CHI 2020
+        links:
+          - name: Memento Game
+            iconName: IoLogoGameControllerA
+            href: https://memento-game.csail.mit.edu/
+        videoSrc: images/chi_turkeyes_video.mp4
+        videoAlt: "Teaser explaining the 4 TurkEyes interfaces"
+        abstract: "Eye movements provide insight into what parts of an image a viewer finds most salient, interesting, or relevant to the task at hand. Unfortunately, eye tracking data, a commonly-used proxy for attention, is cumbersome to collect. Here we explore an alternative: a comprehensive web-based toolbox for crowdsourcing visual attention. We draw from four main classes of attention-capturing methodologies in the literature. ZoomMaps is a novel <i>zoom-based</i> interface that captures viewing on a mobile phone. CodeCharts is a <i>self-reporting</i> methodology that records points of interest at precise viewing durations. ImportAnnots is an <i>annotation</i> tool for selecting important image regions, and <i>cursor-based</i> BubbleView lets viewers click to deblur a small area. We compare these methodologies using a common analysis framework in order to develop appropriate use cases for each interface. This toolbox and our analyses provide a blueprint for how to gather attention data at scale without an eye tracker."
+  - name: Talks
+    items:
+      - title: "Memento: Modeling Video Memorability"
+        venue: <a href="https://machineintelligence.cc/">Machine Intelligence Conference 2019</a>, Boston'
+        videoSrc: documents/memento_talk_recording_downsampled.mp4
