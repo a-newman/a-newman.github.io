@@ -1,0 +1,38 @@
+.publication-section-container {
+  text-align: left;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.publication-section-container h2, h3, h4, h5, h6 {
+  margin: 0.5em 0em;
+}
+
+.publication-section-container p {
+  margin: 0px;
+}
+
+.project-title {
+  color: var(--text-color-full);
+}
+
+.project-links-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0.5em 0em;
+}
+
+.project-link-elt {
+  background-color: var(--button-color);
+  border-radius: 5px;
+  margin-right: 1em;
+  padding: 10px;
+}
+
+.project-picture img {
+  width: 100%;
+  margin: 0.5em 0em;
+}

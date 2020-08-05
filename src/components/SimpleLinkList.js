@@ -12,8 +12,8 @@ const ProfLink = props => (
 
 export default props => (
   <div className="links-flexbox">
-    {props.links.map(elt => (
-      <ProfLink name={elt.name} href={elt.href} />
+    {props.links.map((elt, i) => (
+      <ProfLink name={elt.name} href={elt.href} key={`ProfLink${i}`} />
     ))}
   </div>
 );

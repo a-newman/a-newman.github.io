@@ -11,6 +11,7 @@
   --text-color-muted: rgba(0, 0, 0, 0.6);
   --link-hover-color: rgba(0, 0, 0, 0.9);
   --text-color-full: rgba(0, 0, 0, 1);
+  --button-color: rgba(0, 0, 0, 0.1);
 }
 
 body {
