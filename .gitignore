@@ -1,10 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-documents/*.pdf
-documents/*.mp4
-documents/*.pptx
-images/*.pdf
-images/*.mp4
-images/*.pptx
+src/documents/*.pdf
+src/documents/*.mp4
+src/documents/*.pptx
+src/images/*.pdf
+src/images/*.mp4
+src/images/*.pptx
 
 # swp files 
 *.sw[oap]
