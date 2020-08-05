@@ -1,4 +1,26 @@
 sections: 
 - name: Publications
   items: 
-  - name: Multi-duration Saliency
+  - title: Multimodal Memorability Modeling Effects of Semantics and Decay on Video Memorability
+    authors: 
+    - Anelise Newman* 
+    - Camilo Fosco* 
+    - Vincent Casser
+    - Barry McNamara
+    - Allen Lee
+    - Aude Oliva
+    venue: ECCV 2020
+    imageSrc: louie.jpg
+  - title: A project about Louie
+    authors: 
+    - Anelise Newman
+    - Louie
+    venue: ECCV
+    imageSrc: louie.jpg
+    imageAlt: my dog louie
+    abstract: Here is some abstract text
+    links: 
+    - name: Louie
+      iconName: "IoMdDocument"
+      href: ./images/louie.jpg
+
