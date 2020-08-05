@@ -118,7 +118,7 @@ const Header = props => {
 
 function ResearchPage() {
   return (
-    <>
+    <div className="research-container">
       <Header sections={data.sections.map(section => section.name)}></Header>
       {data.sections.map((section, section_i) => (
         <Section title={section.name} key={`Section${section_i}`}>
@@ -127,7 +127,7 @@ function ResearchPage() {
           ))}
         </Section>
       ))}
-    </>
+    </div>
   );
 }
 

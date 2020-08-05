@@ -1,8 +1,17 @@
 
 .me-pic-container {
-  width: 400px;
-  height: 400px;
+  max-width: 400px;
   margin: 0 auto;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+/* 
+ * This keeps a 1:1 aspect ratio for some reason...
+ * https://stackoverflow.com/questions/18946564/how-to-make-height-equal-width-with-css
+ */ 
+.me-pic-container:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
 }

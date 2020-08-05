@@ -62,7 +62,7 @@ a.sidebar-link-active::before {
 
 .main {
   float: right;
-  padding: 3em 3em;
+  padding: 0em 3em;
   margin-left: 35%;
   height: 100vh;
 }
