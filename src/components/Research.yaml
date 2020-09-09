@@ -62,7 +62,7 @@ sections:
         videoSrc: images/turkeyes_teaser_video.mp4
         videoAlt: "Video teaser explaining the 4 TurkEyes interfaces"
         abstract: "Eye movements provide insight into what parts of an image a viewer finds most salient, interesting, or relevant to the task at hand. Unfortunately, eye tracking data, a commonly-used proxy for attention, is cumbersome to collect. Here we explore an alternative: a comprehensive web-based toolbox for crowdsourcing visual attention. We draw from four main classes of attention-capturing methodologies in the literature. ZoomMaps is a novel <i>zoom-based</i> interface that captures viewing on a mobile phone. CodeCharts is a <i>self-reporting</i> methodology that records points of interest at precise viewing durations. ImportAnnots is an <i>annotation</i> tool for selecting important image regions, and <i>cursor-based</i> BubbleView lets viewers click to deblur a small area. We compare these methodologies using a common analysis framework in order to develop appropriate use cases for each interface. This toolbox and our analyses provide a blueprint for how to gather attention data at scale without an eye tracker."
-  - name: Talks
+  - name: Presentations/Talks
     items:
       - title: "Multimodal Memorability: Modeling Effects of Semantics and Decay on Video Memorability"
         venue: ECCV 2020 virtual presentation. 08/2020.
@@ -116,3 +116,37 @@ sections:
       - title: "Memento: Modeling Video Memorability"
         venue: <a href="https://machineintelligence.cc/">Machine Intelligence Conference 2019</a>, Boston. 09/2020'
         videoSrc: documents/memento_talk_recording_downsampled.mp4
+        links:
+          - name: Slides (PDF)
+            iconName: IoIosPhotos
+            href: "documents/memento_mic_presentation.pdf"
+      - title: "ZoomMaps: A Zoomable Crowdsourced Interface for Exploring Attention on Large-scale Visualizations"
+        venue: Talk at <a href="https://visxvision.com/">VisXVision Workshop at VSS 2019</a>. 05/2019'
+        imageSrc: images/zoommaps_visxvision_image.png
+        imageAlt: Visualizations we studied for our ZoomMaps visualization study
+        links:
+          - name: Slides (PDF)
+            iconName: IoIosPhotos
+            href: "documents/zoommaps_visxvision_presentation.pdf"
+      - title: "ZoomMaps: Using Zoom to Capture Areas of Interest on Images"
+        venue: <a href="https://www.visionsciences.org/">VSS 2019</a> poster presentation. 05/2019
+        imageSrc: images/zoommaps_vss_poster.png
+        imageAlt: ZoomMaps VSS poster
+        links:
+          - name: Poster
+            iconName: IoMdEasel
+            href: "documents/zoommaps_vss_poster.pdf"
+          - name: Abstract
+            iconName: IoMdListBox
+            href: https://jov.arvojournals.org/article.aspx?articleid=2750508
+      - title: "Effects of title wording on memory of trends in line graphs"
+        venue: <a href="https://www.visionsciences.org/">VSS 2018</a> poster presentation. 05/2018
+        imageSrc: images/titles_vss_poster_2018.png
+        imageAlt: Titles VSS poster
+        links:
+          - name: Poster
+            iconName: IoMdEasel
+            href: "documents/titles_vss_poster_2018.pdf"
+          - name: Abstract
+            iconName: IoMdListBox
+            href: https://jov.arvojournals.org/article.aspx?articleid=2699826

@@ -17,7 +17,7 @@ function HomePage() {
       href:
         "https://www.amazon.com/Anelise-Newman/e/B008L3IUCS%3Fref=dbs_a_mng_rwt_scns_share"
     },
-    { name: "Sewing blog", href: "http://anelisemadeit.blogspot.com/" }
+    { name: "Sewing blog", href: "https://anniemakestechstyles.com/" }
   ];
   return (
     <div className="vertical-center">
