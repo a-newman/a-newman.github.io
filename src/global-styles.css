@@ -12,7 +12,8 @@
   --link-hover-color: rgba(0, 0, 0, 0.9);
   --text-color-full: rgba(0, 0, 0, 1);
   --button-color: rgba(0, 0, 0, 0.1);
-  --accent-color: rgb(79, 6, 189);
+  /* --accent-color: rgb(79, 6, 189); */
+  --accent-color: #518fbb;
 }
 
 body {
