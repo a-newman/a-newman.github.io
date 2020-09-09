@@ -66,53 +66,41 @@ sections:
     items:
       - title: "Multimodal Memorability: Modeling Effects of Semantics and Decay on Video Memorability"
         venue: ECCV 2020 virtual presentation. 08/2020.
-        videoSrc: images/memento_eccv_presentation_vid.mp4
+        ytVideo: https://www.youtube.com/watch?v=Ot4mHHcLxV8
         links:
           - name: Slides (PDF)
             iconName: IoIosPhotos
             href: documents/memento_eccv_presentation_slides.pdf
-          - name: View on YouTube
-            iconName: IoIosPlayCircle
-            href: "https://www.youtube.com/watch?v=Ot4mHHcLxV8"
           - name: Teaser Video (YouTube)
             iconName: IoIosPlayCircle
             href: "https://www.youtube.com/watch?v=63R6k1m4tnQ"
       - title: "How much time do you have? Modeling Multi-duration Saliency"
         venue: CVPR 2020 virtual presentation. 06/2020.
-        videoSrc: images/cvpr_teaser_video.mp4
+        ytVideo: https://www.youtube.com/watch?v=gizPQDOztBs
         links:
           - name: Slides (PDF)
             iconName: IoIosPhotos
             href: "documents/multiduration_saliency_cvpr_video_pres_slides.pdf"
-          - name: View on YouTube
-            iconName: IoIosPlayCircle
-            href: "https://www.youtube.com/watch?v=gizPQDOztBs"
           - name: Poster
             iconName: IoMdEasel
             href: documents/multiduration_saliency_cvpr_poster.pdf
       - title: "Introducing the TurkEyes Toolbox: UIs for crowdsourcing attention without an eye tracker"
         venue: <a href="https://www.visionsciences.org/">VSS 2020</a> virtual poster presentation. 05/2020'
-        videoSrc: images/turkeyes_vss_presentation.mp4
+        ytVideo: https://www.youtube.com/watch?v=Na7wWyJkKBQ
         links:
           - name: Slides (PDF)
             iconName: IoIosPhotos
             href: documents/TurkEyes_vss_slides.pdf
-          - name: View on YouTube
-            iconName: IoIosPlayCircle
-            href: "https://www.youtube.com/watch?v=Na7wWyJkKBQ"
           - name: Poster
             iconName: IoMdEasel
             href: documents/TurkEyes_vss_poster.pdf
       - title: "TurkEyes: A Web-Based Toolbox for Crowdsourcing Attention Data"
         venue: CHI 2020 virtual video presentation. 04/2020.
-        videoSrc: images/turkeyes_chi_presentation.mp4
+        ytVideo: https://www.youtube.com/watch?v=NZjjn-u1X90
         links:
           - name: Slides (PDF)
             iconName: IoIosPhotos
             href: "documents/TurkEyes_chi_presentation_slides.pdf"
-          - name: View on YouTube
-            iconName: IoIosPlayCircle
-            href: "https://www.youtube.com/watch?v=NZjjn-u1X90"
       - title: "Memento: Modeling Video Memorability"
         venue: <a href="https://machineintelligence.cc/">Machine Intelligence Conference 2019</a>, Boston. 09/2020'
         videoSrc: documents/memento_talk_recording_downsampled.mp4

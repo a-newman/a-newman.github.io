@@ -2,6 +2,7 @@ import React from "react";
 import * as IoIcons from "react-icons/io";
 import data from "./Research.yaml";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import ReactPlayer from "react-player";
 
 import "./Research.css";
 import "../global-styles.css";
@@ -73,6 +74,11 @@ const Publication = props => {
               alt={props.videoAlt}
               controls
             ></video>
+          </div>
+        )}
+        {props.ytVideo && (
+          <div className="project video project-yt-video">
+            <ReactPlayer url={props.ytVideo} />
           </div>
         )}
         {props.abstract && (
