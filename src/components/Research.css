@@ -66,8 +66,12 @@
   margin-right: 0.5em;
 }
 
+.project-picture, .project-video {
+  text-align: center
+}
+
 .project-picture img, video {
-  width: 100%;
+  width: 75%;
   margin: 0.5em 0em;
 }
 

@@ -21,6 +21,26 @@ sections:
           - name: Paper
             iconName: IoIosPaper
             href: "documents/Memento_ECCV_2020.pdf"
+      - title: "How much time do you have? Modeling Multi-duration Saliency"
+        authors:
+          - Camilo Fosco*
+          - Anelise Newman*
+          - Pat Sukhum
+          - Yun Bin Zhang
+          - Nanxuan Zhao
+          - Aude Oliva
+          - Zoya Bylinskii
+        venue: CVPR 2020
+        imageSrc: images/multiduration_predictions.png
+        imageAlt: Multi-duration saliency predictions from our model, MD-SEM.
+        abstract: What jumps out in a single glance of an image is different than what you might notice after closer inspection. Yet conventional models of visual saliency produce predictions at an arbitrary, fixed viewing duration, offering a limited view of the rich interactions between image content and gaze location. In this paper we propose to capture gaze as a series of snapshots, by generating population-level saliency heatmaps for multiple viewing durations. We collect the CodeCharts1K dataset, which contains multiple distinct heatmaps per image corresponding to 0.5, 3, and 5 seconds of free-viewing. We develop an LSTM-based model of saliency that simultaneously trains on data from multiple viewing durations. Our Multi-Duration Saliency Excited Model (MD-SEM) achieves competitive performance on the LSUN 2017 Challenge with 57% fewer parameters than comparable architectures. It is the first model that produces heatmaps at multiple viewing durations, enabling applications where multi-duration saliency can be used to prioritize visual content to keep, transmit, and render.
+        links:
+          - name: Project Website
+            iconName: IoIosDesktop
+            href: "http://multiduration-saliency.csail.mit.edu/"
+          - name: Paper
+            iconName: IoIosPaper
+            href: "documents/MultidurationSaliency_CVPR_2020.pdf"
       - title: "TurkEyes: A Web-Based Toolbox for Crowdsourcing Attention Data"
         authors:
           - Anelise Newman
@@ -33,14 +53,66 @@ sections:
           - Zoya Bylinskii
         venue: CHI 2020
         links:
-          - name: Memento Game
-            iconName: IoLogoGameControllerA
-            href: https://memento-game.csail.mit.edu/
-        videoSrc: images/chi_turkeyes_video.mp4
-        videoAlt: "Teaser explaining the 4 TurkEyes interfaces"
+          - name: Project Website
+            iconName: IoIosDesktop
+            href: "http://turkeyes.mit.edu/"
+          - name: Paper
+            iconName: IoIosPaper
+            href: "documents/TurkEyes.pdf"
+        videoSrc: images/turkeyes_teaser_video.mp4
+        videoAlt: "Video teaser explaining the 4 TurkEyes interfaces"
         abstract: "Eye movements provide insight into what parts of an image a viewer finds most salient, interesting, or relevant to the task at hand. Unfortunately, eye tracking data, a commonly-used proxy for attention, is cumbersome to collect. Here we explore an alternative: a comprehensive web-based toolbox for crowdsourcing visual attention. We draw from four main classes of attention-capturing methodologies in the literature. ZoomMaps is a novel <i>zoom-based</i> interface that captures viewing on a mobile phone. CodeCharts is a <i>self-reporting</i> methodology that records points of interest at precise viewing durations. ImportAnnots is an <i>annotation</i> tool for selecting important image regions, and <i>cursor-based</i> BubbleView lets viewers click to deblur a small area. We compare these methodologies using a common analysis framework in order to develop appropriate use cases for each interface. This toolbox and our analyses provide a blueprint for how to gather attention data at scale without an eye tracker."
   - name: Talks
     items:
+      - title: "Multimodal Memorability: Modeling Effects of Semantics and Decay on Video Memorability"
+        venue: ECCV 2020 virtual presentation. 08/2020.
+        videoSrc: images/memento_eccv_presentation_vid.mp4
+        links:
+          - name: Slides (PDF)
+            iconName: IoIosPhotos
+            href: documents/memento_eccv_presentation_slides.pdf
+          - name: View on YouTube
+            iconName: IoIosPlayCircle
+            href: "https://www.youtube.com/watch?v=Ot4mHHcLxV8"
+          - name: Teaser Video (YouTube)
+            iconName: IoIosPlayCircle
+            href: "https://www.youtube.com/watch?v=63R6k1m4tnQ"
+      - title: "How much time do you have? Modeling Multi-duration Saliency"
+        venue: CVPR 2020 virtual presentation. 06/2020.
+        videoSrc: images/cvpr_teaser_video.mp4
+        links:
+          - name: Slides (PDF)
+            iconName: IoIosPhotos
+            href: "documents/multiduration_saliency_cvpr_video_pres_slides.pdf"
+          - name: View on YouTube
+            iconName: IoIosPlayCircle
+            href: "https://www.youtube.com/watch?v=gizPQDOztBs"
+          - name: Poster
+            iconName: IoMdEasel
+            href: documents/multiduration_saliency_cvpr_poster.pdf
+      - title: "Introducing the TurkEyes Toolbox: UIs for crowdsourcing attention without an eye tracker"
+        venue: <a href="https://www.visionsciences.org/">VSS 2020</a> virtual poster presentation. 05/2020'
+        videoSrc: images/turkeyes_vss_presentation.mp4
+        links:
+          - name: Slides (PDF)
+            iconName: IoIosPhotos
+            href: documents/TurkEyes_vss_slides.pdf
+          - name: View on YouTube
+            iconName: IoIosPlayCircle
+            href: "https://www.youtube.com/watch?v=Na7wWyJkKBQ"
+          - name: Poster
+            iconName: IoMdEasel
+            href: documents/TurkEyes_vss_poster.pdf
+      - title: "TurkEyes: A Web-Based Toolbox for Crowdsourcing Attention Data"
+        venue: CHI 2020 virtual video presentation. 04/2020.
+        videoSrc: images/turkeyes_chi_presentation.mp4
+        links:
+          - name: Slides (PDF)
+            iconName: IoIosPhotos
+            href: "documents/TurkEyes_chi_presentation_slides.pdf"
+          - name: View on YouTube
+            iconName: IoIosPlayCircle
+            href: "https://www.youtube.com/watch?v=NZjjn-u1X90"
       - title: "Memento: Modeling Video Memorability"
-        venue: <a href="https://machineintelligence.cc/">Machine Intelligence Conference 2019</a>, Boston'
+        venue: <a href="https://machineintelligence.cc/">Machine Intelligence Conference 2019</a>, Boston. 09/2020'
         videoSrc: documents/memento_talk_recording_downsampled.mp4
