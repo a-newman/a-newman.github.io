@@ -88,7 +88,9 @@ const Publication = props => {
               <IconLinkButton
                 name={elt.name}
                 iconName={elt.iconName}
-                href={elt.href}
+                href={
+                  elt.href.startsWith("http") ? elt.href : getPath(elt.href)
+                }
                 key={`iconLinkButton${i}`}
               />
             ))}

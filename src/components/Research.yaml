@@ -11,13 +11,16 @@ sections:
           - Allen Lee
           - Aude Oliva
         venue: ECCV 2020
-        imageSrc: images/semantic_memnet_predictions.png
+        imageSrc: images/memento_predictions.png
         imageAlt: Memorability decay predictions from our model, SemanticMemNet
-        abstract: A key capability of an intelligent decision making system is to decipher which events should be remembered, which ones can be forgotten and when to make an intervention to revive a decaying memory. Here, we model for the first time the human memory decay of visual events. We propose a new mathematical formulation of memorability decay and create a multimodal model that combines visual and semantic information to fully represent the meaning of events. We show that our model can estimate with high accuracy both the memorability strength of a video clip and its decay curve. Our model establishes new state of the art performances in predicting the memorability of events and how long a given memory will last.
+        abstract: A key capability of an intelligent system is deciding when events from past experience must be remembered and when they can be forgotten. Towards this goal, we develop a predictive model of human visual event memory and how those memories decay over time. We introduce Memento10k, a new, dynamic video memorability dataset containing human annotations at different viewing delays. Based on our findings we propose a new mathematical formulation of memorability decay, resulting in a model that is able to produce the first quantitative estimation of how a video decays in memory over time. In contrast with previous work, our model can predict the probability that a video will be remembered at an arbitrary delay. Importantly, our approach is multimodal, combining visual and semantic information to fully represent the meaning of events. Our experiments on two video memorability benchmarks, including Memento10k, show that our model significantly improves upon the best prior approach (by 12% on average).
         links:
-          - name: Memento Game
-            iconName: IoLogoGameControllerA
-            href: "https://memento-game.csail.mit.edu/"
+          - name: Project Website
+            iconName: IoIosDesktop
+            href: "http://memento.csail.mit.edu/"
+          - name: Paper
+            iconName: IoIosPaper
+            href: "documents/Memento_ECCV_2020.pdf"
       - title: "TurkEyes: A Web-Based Toolbox for Crowdsourcing Attention Data"
         authors:
           - Anelise Newman
