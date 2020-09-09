@@ -78,7 +78,7 @@ const Publication = props => {
         )}
         {props.ytVideo && (
           <div className="project video project-yt-video">
-            <ReactPlayer url={props.ytVideo} width="100%" />
+            <ReactPlayer url={props.ytVideo} width="100%" controls />
           </div>
         )}
         {props.abstract && (
