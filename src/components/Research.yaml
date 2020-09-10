@@ -3,6 +3,7 @@ sections:
   - name: Publications
     items:
       - title: "Multimodal Memorability: Modeling Effects of Semantics and Decay on Video Memorability"
+        pubKey: memento
         authors:
           - Anelise Newman*
           - Camilo Fosco*
@@ -22,6 +23,7 @@ sections:
             iconName: IoIosPaper
             href: "documents/Memento_ECCV_2020.pdf"
       - title: "How much time do you have? Modeling Multi-duration Saliency"
+        pubKey: multiduration
         authors:
           - Camilo Fosco*
           - Anelise Newman*
@@ -42,6 +44,7 @@ sections:
             iconName: IoIosPaper
             href: "documents/MultidurationSaliency_CVPR_2020.pdf"
       - title: "TurkEyes: A Web-Based Toolbox for Crowdsourcing Attention Data"
+        pubKey: turkeyes
         authors:
           - Anelise Newman
           - Barry McNamara
@@ -65,6 +68,7 @@ sections:
   - name: Presentations/Talks
     items:
       - title: "Multimodal Memorability: Modeling Effects of Semantics and Decay on Video Memorability"
+        pubKey: memento_eccv_presentation
         venue: ECCV 2020 virtual presentation. 08/2020.
         ytVideo: https://www.youtube.com/watch?v=Ot4mHHcLxV8
         links:
@@ -75,6 +79,7 @@ sections:
             iconName: IoIosPlayCircle
             href: "https://www.youtube.com/watch?v=63R6k1m4tnQ"
       - title: "How much time do you have? Modeling Multi-duration Saliency"
+        pubKey: multiduration_cvpr_presentation
         venue: CVPR 2020 virtual presentation. 06/2020.
         ytVideo: https://www.youtube.com/watch?v=gizPQDOztBs
         links:
@@ -85,6 +90,7 @@ sections:
             iconName: IoMdEasel
             href: documents/multiduration_saliency_cvpr_poster.pdf
       - title: "Introducing the TurkEyes Toolbox: UIs for crowdsourcing attention without an eye tracker"
+        pubKey: turkeyes_vss_presentation
         venue: <a href="https://www.visionsciences.org/">VSS 2020</a> virtual poster presentation. 05/2020'
         ytVideo: https://www.youtube.com/watch?v=Na7wWyJkKBQ
         links:
@@ -95,6 +101,7 @@ sections:
             iconName: IoMdEasel
             href: documents/TurkEyes_vss_poster.pdf
       - title: "TurkEyes: A Web-Based Toolbox for Crowdsourcing Attention Data"
+        pubKey: turkeyes_chi_presentation
         venue: CHI 2020 virtual video presentation. 04/2020.
         ytVideo: https://www.youtube.com/watch?v=NZjjn-u1X90
         links:
@@ -102,6 +109,7 @@ sections:
             iconName: IoIosPhotos
             href: "documents/TurkEyes_chi_presentation_slides.pdf"
       - title: "Memento: Modeling Video Memorability"
+        pubKey: memento_mic_presentation
         venue: <a href="https://machineintelligence.cc/">Machine Intelligence Conference 2019</a>, Boston. 09/2020'
         videoSrc: documents/memento_talk_recording_downsampled.mp4
         links:
@@ -109,6 +117,7 @@ sections:
             iconName: IoIosPhotos
             href: "documents/memento_mic_presentation.pdf"
       - title: "ZoomMaps: A Zoomable Crowdsourced Interface for Exploring Attention on Large-scale Visualizations"
+        pubKey: zoommaps_visxvision_presentation
         venue: Talk at <a href="https://visxvision.com/">VisXVision Workshop at VSS 2019</a>. 05/2019'
         imageSrc: images/zoommaps_visxvision_image.png
         imageAlt: Visualizations we studied for our ZoomMaps visualization study
@@ -117,6 +126,7 @@ sections:
             iconName: IoIosPhotos
             href: "documents/zoommaps_visxvision_presentation.pdf"
       - title: "ZoomMaps: Using Zoom to Capture Areas of Interest on Images"
+        pubKey: zoommaps_vss_poster
         venue: <a href="https://www.visionsciences.org/">VSS 2019</a> poster presentation. 05/2019
         imageSrc: images/zoommaps_vss_poster.png
         imageAlt: ZoomMaps VSS poster
@@ -128,6 +138,7 @@ sections:
             iconName: IoMdListBox
             href: https://jov.arvojournals.org/article.aspx?articleid=2750508
       - title: "Effects of title wording on memory of trends in line graphs"
+        pubKey: titles_vss_poster
         venue: <a href="https://www.visionsciences.org/">VSS 2018</a> poster presentation. 05/2018
         imageSrc: images/titles_vss_poster_2018.png
         imageAlt: Titles VSS poster

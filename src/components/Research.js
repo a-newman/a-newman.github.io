@@ -51,7 +51,7 @@ const Publication = props => {
   return (
     <div className="publication-section-container">
       <div>
-        <h3 className="project-title">
+        <h3 className="project-title" id={props.pubKey}>
           <b>{props.title}</b>
         </h3>
         {authorList && <h4 className="project-authors">{authorList}</h4>}
