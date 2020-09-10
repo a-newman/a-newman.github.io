@@ -24,9 +24,9 @@ function HomePage() {
       <div>
         <CircularImage src={louie} className="personal-pic-container louie" />
         <p>
-          I'm a native of Los Angeles, but I've spent the better part of the
-          last four years in Boston, studying Computer Science at MIT. I have
-          two younger brothers and an adorable dog named Louie.
+          I'm a native of Los Angeles, but I'm currently studying in Palo Alto.
+          I spent the previous five years in Boston, studying Computer Science
+          at MIT. I have two younger brothers and an adorable dog named Louie.
         </p>
         <CircularImage
           src={brassrat}
