@@ -1,6 +1,6 @@
 import React from "react";
 import me from "../images/me.jpg";
-import cv from "../documents/Anelise_Newman_CV.pdf";
+import cv from "../documents/resume.pdf";
 import thesis from "../documents/MEng_Thesis.pdf";
 import CircularImage from "./CircularImage.js";
 import SimpleLinkList from "./SimpleLinkList.js";
@@ -12,7 +12,7 @@ import "../global-styles.css";
 
 function HomePage() {
   const links = [
-    { name: "CV", href: { cv } },
+    { name: "CV", href: cv },
     { name: "LinkedIn", href: "https://www.linkedin.com/in/anelise-newman/" },
     { name: "Github", href: "https://github.com/a-newman/" },
     { name: "Email", href: "mailto:anelise@stanford.edu" }
