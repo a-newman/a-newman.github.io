@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a49e62e1.chunk.css",
-    "main.js": "/static/js/main.6c35cf7f.chunk.js",
-    "main.js.map": "/static/js/main.6c35cf7f.chunk.js.map",
+    "main.js": "/static/js/main.7094feeb.chunk.js",
+    "main.js.map": "/static/js/main.7094feeb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7c2c84ed.js",
     "runtime-main.js.map": "/static/js/runtime-main.7c2c84ed.js.map",
-    "static/js/2.17f1a490.chunk.js": "/static/js/2.17f1a490.chunk.js",
-    "static/js/2.17f1a490.chunk.js.map": "/static/js/2.17f1a490.chunk.js.map",
+    "static/js/2.329bd757.chunk.js": "/static/js/2.329bd757.chunk.js",
+    "static/js/2.329bd757.chunk.js.map": "/static/js/2.329bd757.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.09d7c3020efc24702ab1ec376ea54527.js": "/precache-manifest.09d7c3020efc24702ab1ec376ea54527.js",
+    "precache-manifest.7c82f21e8e67b06e7d75c887040afe86.js": "/precache-manifest.7c82f21e8e67b06e7d75c887040afe86.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a49e62e1.chunk.css.map": "/static/css/main.a49e62e1.chunk.css.map",
-    "static/js/2.17f1a490.chunk.js.LICENSE.txt": "/static/js/2.17f1a490.chunk.js.LICENSE.txt",
+    "static/js/2.329bd757.chunk.js.LICENSE.txt": "/static/js/2.329bd757.chunk.js.LICENSE.txt",
     "static/media/804_final_project_writeup.pdf": "/static/media/804_final_project_writeup.8a086439.pdf",
     "static/media/869_final_project_writeup.pdf": "/static/media/869_final_project_writeup.1867b0b6.pdf",
-    "static/media/Anelise_Newman_CV.pdf": "/static/media/Anelise_Newman_CV.32565caf.pdf",
     "static/media/MEng_Thesis.pdf": "/static/media/MEng_Thesis.8bdae853.pdf",
     "static/media/Memento_ECCV_2020.pdf": "/static/media/Memento_ECCV_2020.4afeb47b.pdf",
     "static/media/Memento_SVRHM_Camera_ready.pdf": "/static/media/Memento_SVRHM_Camera_ready.79669870.pdf",
@@ -39,7 +38,7 @@
     "static/media/multiduration_predictions.png": "/static/media/multiduration_predictions.9166915f.png",
     "static/media/multiduration_saliency_cvpr_poster.pdf": "/static/media/multiduration_saliency_cvpr_poster.b5f80b75.pdf",
     "static/media/multiduration_saliency_cvpr_video_pres_slides.pdf": "/static/media/multiduration_saliency_cvpr_video_pres_slides.23fd4024.pdf",
-    "static/media/resume.pdf": "/static/media/resume.020a5354.pdf",
+    "static/media/resume.pdf": "/static/media/resume.1f984a99.pdf",
     "static/media/titles_vss_poster_2018.png": "/static/media/titles_vss_poster_2018.4fa16e96.png",
     "static/media/titles_vss_poster_2018.pdf": "/static/media/titles_vss_poster_2018.56bf985d.pdf",
     "static/media/turkeyes_teaser_video.mp4": "/static/media/turkeyes_teaser_video.705a18be.mp4",
@@ -51,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7c2c84ed.js",
-    "static/js/2.17f1a490.chunk.js",
+    "static/js/2.329bd757.chunk.js",
     "static/css/main.a49e62e1.chunk.css",
-    "static/js/main.6c35cf7f.chunk.js"
+    "static/js/main.7094feeb.chunk.js"
   ]
 }
