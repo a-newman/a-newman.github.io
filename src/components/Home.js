@@ -32,8 +32,11 @@ function HomePage() {
       <h2>Updates</h2>
       <ul>
         <li>
-          <b>09/2020</b>: I am starting a PhD program at Stanford rotating with
-          Michael Bernstein and Fei-Fei Li.
+          <b>01/2021</b>: I am doing my winter rotation with Maneesh Agrawala.
+        </li>
+        <li>
+          <b>09/2020</b>: I started a PhD program at Stanford! I did my fall
+          rotation with Michael Bernstein and Fei-Fei Li.
         </li>
         <li>
           <b>08/2020:</b> Our paper "Multimodal Memorability: Modeling Effects
