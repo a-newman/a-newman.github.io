@@ -1,42 +1,39 @@
 import React from "react";
-import me from "../images/me.jpg";
-import cv from "../documents/resume.pdf";
-import thesis from "../documents/MEng_Thesis.pdf";
-import CircularImage from "./CircularImage.js";
-import SimpleLinkList from "./SimpleLinkList.js";
-import { HashLink } from "react-router-hash-link";
 import { withRouter } from "react-router-dom";
-
-import "./Home.css";
+import { HashLink } from "react-router-hash-link";
+import thesis from "../documents/MEng_Thesis.pdf";
+import cv from "../documents/resume.pdf";
 import "../global-styles.css";
+import me from "../images/me.jpg";
+import CircularImage from "./CircularImage.js";
+import "./Home.css";
+import SimpleLinkList from "./SimpleLinkList.js";
+
 
 function HomePage() {
   const links = [
     { name: "CV", href: cv },
     { name: "LinkedIn", href: "https://www.linkedin.com/in/anelise-newman/" },
     { name: "Github", href: "https://github.com/a-newman/" },
-    { name: "Email", href: "mailto:anelise@stanford.edu" }
+    { name: "Email", href: "mailto:anelisenewman@gmail.com" }
   ];
   return (
     <div>
       <CircularImage src={me} className="me-pic-container" />
-      {/* <img src={me} className="me-pic" alt="Portrait of Anelise Newman" /> */}
-      <p>
-        I'm <b>Anelise Newman</b>. I am a 1st-year PhD student at Stanford in
-        Computer Vision and HCI. Previously, I received my MEng at MIT working
-        with Aude Oliva. I am interested in understanding and modeling how
-        humans interact with visual content. My research projects often span
-        computer vision, cognitive science, and HCI.
-      </p>
       <SimpleLinkList links={links} />
       <h2>Updates</h2>
       <ul>
         <li>
-          <b>01/2021</b>: I am doing my winter rotation with Maneesh Agrawala.
+          <b>04/2022</b>: I started a job as a Machine Learning Engineer at 
+          Stitch Fix.
         </li>
         <li>
-          <b>09/2020</b>: I started a PhD program at Stanford! I did my fall
-          rotation with Michael Bernstein and Fei-Fei Li.
+          <b>07/2021</b>: My Master's Thesis, "Human-Computer Perception: 
+          Modeling Visual Perceptual Attributes", was the 1st-place recipient 
+          of MIT's Artificial Intelligence and Decision Making MEng Thesis Award.
+        </li>
+        <li>
+          <b>09/2020</b>: I started my PhD in Computer Science at Stanford.
         </li>
         <li>
           <b>08/2020:</b> Our paper "Multimodal Memorability: Modeling Effects

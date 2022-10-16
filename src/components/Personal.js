@@ -1,10 +1,10 @@
 import React from "react";
-import CircularImage from "./CircularImage.js";
-import SimpleLinkList from "./SimpleLinkList.js";
-import louie from "../images/louie.jpg";
 import brassrat from "../images/brass_rat.jpg";
-
+import louie from "../images/louie.jpg";
+import CircularImage from "./CircularImage.js";
 import "./Personal.css";
+import SimpleLinkList from "./SimpleLinkList.js";
+
 
 function HomePage() {
   const links = [
@@ -24,8 +24,8 @@ function HomePage() {
       <div>
         <CircularImage src={louie} className="personal-pic-container louie" />
         <p>
-          I'm a native of Los Angeles, but I'm currently studying in Palo Alto.
-          I spent the previous five years in Boston, studying Computer Science
+          I'm from Los Angeles, but I'm currently living in the San Francisco Bay Area.
+          I did my undergrad and Master's in Boston, studying Computer Science
           at MIT. I have two younger brothers and an adorable dog named Louie.
         </p>
         <CircularImage
@@ -33,10 +33,9 @@ function HomePage() {
           className="personal-pic-container brassrat"
         />
         <p>
-          When I'm not doing research, you can find me sewing (usually something
-          multicolored and flamboyant), practicing languages (I speak Spanish
-          and French), writing (mostly blogging nowadays), or goofing off with
-          my friends.
+          In my free time, you can find me sewing (usually something
+          multicolored and flamboyant), hiking, climbing, gardening, practicing 
+          languages, or goofing off with my friends.
         </p>
         <SimpleLinkList links={links} />
       </div>
