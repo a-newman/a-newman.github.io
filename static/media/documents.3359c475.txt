@@ -1,0 +1,16 @@
+804_final_project_writeup.pdf
+869_final_project_writeup.pdf
+Anelise_Newman_CV.pdf
+documents.txt
+md_saliency_svrhm_camera_ready.pdf
+md_saliency_svrhm_poster.pdf
+memento_mic_presentation.pdf
+memento_mic_presentation.pptx
+Memento_SVRHM_Camera_ready.pdf
+memento_svrhm_poster.pdf
+memento_talk_recording_downsampled.mp4
+titles_vss_poster_2018.pdf
+turkeyes.pdf
+zoommaps_visxvision_presentation.pdf
+zoommaps_visxvision_presentation.pptx
+zoommaps_vss_poster.pdf
