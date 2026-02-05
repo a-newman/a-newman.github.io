@@ -4,7 +4,7 @@ Made with [Create React App](https://github.com/facebook/create-react-app)
 
 ## Branches
 
-- The website code is on the `master` branch
+- The website code is on the `main` branch
 - The website is served from the gh-pages branch. `npm run deploy` automatically pushes the build code to this branch, which will update the website.
 
 ## Available Scripts
