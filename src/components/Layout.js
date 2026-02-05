@@ -1,13 +1,17 @@
 import React from "react";
-import { NavLink, withRouter } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-import "./Layout.css";
 import "../global-styles.css";
+import "./Layout.css";
 
 const SidebarLink = props => (
   <div className="sidebar-link">
     <h3>
-      <NavLink to={props.to} exact activeClassName="sidebar-link-active">
+      <NavLink
+        to={props.to}
+        className={({ isActive }) => isActive ? "sidebar-link-active" : ""}
+        end
+      >
         {props.name}
       </NavLink>
     </h3>
@@ -32,4 +36,4 @@ const Layout = ({ children }) => {
   );
 };
 
-export default withRouter(Layout);
+export default Layout;

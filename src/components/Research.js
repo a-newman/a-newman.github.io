@@ -1,11 +1,11 @@
 import React from "react";
-import * as IoIcons from "react-icons/io";
-import data from "./Research.yaml";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import * as IoIcons from "react-icons/io";
 import ReactPlayer from "react-player";
+import data from "./ResearchData.js";
 
-import "./Research.css";
 import "../global-styles.css";
+import "./Research.css";
 
 const IconLinkButton = props => {
   const Icon = IoIcons[props.iconName];
@@ -33,16 +33,16 @@ const Section = props => {
 const Publication = props => {
   const authorList = props.authors
     ? props.authors
-        .map((author, i) => {
-          const isMe = author.includes("Anelise Newman");
-          const key = `author${i}`;
-          return isMe ? (
-            <b key={key}>{author}</b>
-          ) : (
-            <span key={key}>{author}</span>
-          );
-        })
-        .reduce((prev, curr) => [prev, ", ", curr])
+      .map((author, i) => {
+        const isMe = author.includes("Anelise Newman");
+        const key = `author${i}`;
+        return isMe ? (
+          <b key={key}>{author}</b>
+        ) : (
+          <span key={key}>{author}</span>
+        );
+      })
+      .reduce((prev, curr) => [prev, ", ", curr])
     : null;
 
   const src = require.context("../", true);

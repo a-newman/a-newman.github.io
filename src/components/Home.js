@@ -1,5 +1,4 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import thesis from "../documents/MEng_Thesis.pdf";
 import cv from "../documents/resume.pdf";
@@ -108,4 +107,4 @@ function HomePage() {
   );
 }
 
-export default withRouter(HomePage);
+export default HomePage;
