@@ -1,4 +1,6 @@
+const rewireYAML = require("react-app-rewire-yaml");
+
 module.exports = function override(config, env) {
-  // No custom configuration needed
+  config = rewireYAML(config, env);
   return config;
 };
