@@ -50,9 +50,9 @@ const CompactPublication = ({ title, authors, venue, links }) => {
 
 function HomePage() {
   const links = [
-    { name: "CV", href: cv },
-    { name: "LinkedIn", href: "https://www.linkedin.com/in/anelise-newman/" },
-    { name: "Email", href: "mailto:anelisenewman@gmail.com" }
+    { name: "CV", href: cv, icon: "IoIosDocument" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/anelise-newman/", icon: "IoLogoLinkedin" },
+    { name: "Email", href: "mailto:anelisenewman@gmail.com", icon: "IoIosMail" }
   ];
 
   const publications = researchData.sections.find(s => s.name === "Publications")?.items || [];
@@ -60,15 +60,16 @@ function HomePage() {
   return (
     <div className="home-content">
       <div className="intro-section">
-        <CircularImage src={me} className="me-pic-container" />
+        <div className="intro-left">
+          <CircularImage src={me} className="me-pic-container" />
+          <SimpleLinkList links={links} />
+        </div>
         <div className="intro-text">
           <h1>Anelise Newman</h1>
           <h2>Machine Learning Engineer at Adobe Firefly</h2>
           <h3>I build human-in-the-loop systems for evaluating and improving GenAI quality and safety. At Adobe Firefly, I build and scale our internal evaluation systems, turning noisy human feedback into evaluation rubrics and post-training datasets. Before that, I was at Stitch Fix, leading evaluation for an inventory purchasing model responsible for millions of dollars of decisions. I hold a B.S. and Master's from MIT, where I published at ECCV, CVPR, and CHI on computer vision and human perception. I combine technical depth in ML infrastructure with experience designing human-facing experiments and extracting reliable signals from noisy data.</h3>
         </div>
       </div>
-
-      <SimpleLinkList links={links} />
 
       <div className="research-summary">
         <h2>Publications</h2>

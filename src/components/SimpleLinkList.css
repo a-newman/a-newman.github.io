@@ -1,21 +1,35 @@
 .links-flexbox {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  gap: 2.5em;
   align-items: center;
-  align-content: center;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.icon-link {
   color: var(--accent-color);
-  font-weight: bold;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+  text-decoration: none;
 }
 
-.links-elt {
-  border-bottom: 1px solid var(--accent-color);
-  margin: 20px;
-  display: block;
-  line-height: 1.2;
+.icon-link .icon {
+  transition: transform 0.2s ease;
 }
 
-.link-arrow-icon {
-  margin-bottom: -0.1em;
+.icon-label {
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.icon-link:hover {
+  color: var(--link-hover-color);
+}
+
+.icon-link:hover .icon {
+  transform: scale(1.1);
 }

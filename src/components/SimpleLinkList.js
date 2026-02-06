@@ -1,19 +1,22 @@
 import React from "react";
-import { IoIosArrowForward } from "react-icons/io";
+import * as IoIcons from "react-icons/io";
 
 import "./SimpleLinkList.css";
 
-const ProfLink = props => (
-  <p className="links-elt">
-    <a href={props.href}>{props.name}</a>
-    <IoIosArrowForward className="link-arrow-icon" />
-  </p>
-);
+const ProfLink = props => {
+  const Icon = IoIcons[props.icon];
+  return (
+    <a href={props.href} className="icon-link" title={props.name}>
+      <Icon size="1.5em" className="icon" />
+      <span className="icon-label">{props.name}</span>
+    </a>
+  );
+};
 
 export default props => (
   <div className="links-flexbox">
     {props.links.map((elt, i) => (
-      <ProfLink name={elt.name} href={elt.href} key={`ProfLink${i}`} />
+      <ProfLink name={elt.name} href={elt.href} icon={elt.icon} key={`ProfLink${i}`} />
     ))}
   </div>
 );
