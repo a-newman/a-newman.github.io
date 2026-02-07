@@ -13,10 +13,12 @@ const ProfLink = props => {
   );
 };
 
-export default props => (
+const SimpleLinkList = props => (
   <div className="links-flexbox">
     {props.links.map((elt, i) => (
       <ProfLink name={elt.name} href={elt.href} icon={elt.icon} key={`ProfLink${i}`} />
     ))}
   </div>
 );
+
+export default SimpleLinkList;

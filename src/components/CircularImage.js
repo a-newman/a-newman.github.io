@@ -2,9 +2,11 @@ import React from "react";
 
 import "./CircularImage.css";
 
-export default props => (
+const CircularImage = props => (
   <div
     className={`circular-img ${props.className}`}
     style={{ backgroundImage: `url(${props.src})` }}
   ></div>
 );
+
+export default CircularImage;
