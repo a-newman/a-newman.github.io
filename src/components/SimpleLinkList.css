@@ -1,23 +1,40 @@
-
-
 .links-flexbox {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  gap: 3.5em;
   align-items: center;
-  align-content: center;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+
+.icon-link {
   color: var(--accent-color);
-  font-weight: bold;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+  text-decoration: none;
+  padding: 0.8em 1em;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.02);
 }
 
-.links-elt {
-  border-bottom: 1px solid var(--accent-color);
-  margin: 20px;
-  display: block;
-  line-height: 1.2;
+.icon-link .icon {
+  transition: all 0.2s ease;
 }
 
-.link-arrow-icon {
-  margin-bottom: -0.1em;
+.icon-label {
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.icon-link:hover {
+  color: #e81780;
+  background-color: rgba(232, 23, 128, 0.08);
+}
+
+.icon-link:hover .icon {
+  transform: translateY(-2px);
 }
