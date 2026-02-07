@@ -18,8 +18,8 @@
 # testing
 /coverage
 
-# production
-/build
+# Note: this folder needs to be committed on branch gh-pages for deployment to work
+# /build
 
 # misc
 .DS_Store
