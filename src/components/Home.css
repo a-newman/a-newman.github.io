@@ -29,6 +29,7 @@ ul {
   margin-bottom: 0.3em;
   font-weight: 700;
   line-height: 1.2;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .intro-text h2 {
@@ -77,6 +78,7 @@ ul {
   margin-bottom: 2em;
   padding-bottom: 0.5em;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  font-family: 'Libre Baskerville', serif;
 }
 
 .compact-publication {

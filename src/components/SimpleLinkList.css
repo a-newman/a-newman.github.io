@@ -1,7 +1,7 @@
 .links-flexbox {
   display: flex;
   flex-direction: row;
-  gap: 2em;
+  gap: 3.5em;
   align-items: center;
   justify-content: center;
   margin-top: 1.5em;

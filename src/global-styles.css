@@ -6,7 +6,7 @@
 }
 
 :root {
-  --background-color: #FFF;
+  --background-color: #f5f8ff;
   --sidebar-color: rgba(0, 0, 0, 0.04);
   --text-color-muted: rgba(0, 0, 0, 0.6);
   --link-hover-color: rgba(0, 0, 0, 0.9);

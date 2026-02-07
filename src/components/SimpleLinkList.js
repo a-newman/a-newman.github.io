@@ -7,7 +7,7 @@ const ProfLink = props => {
   const Icon = IoIcons[props.icon];
   return (
     <a href={props.href} className="icon-link" title={props.name}>
-      <Icon size="1.5em" className="icon" />
+      <Icon size="1.75em" className="icon" />
       <span className="icon-label">{props.name}</span>
     </a>
   );
