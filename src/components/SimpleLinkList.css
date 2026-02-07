@@ -1,10 +1,10 @@
 .links-flexbox {
   display: flex;
   flex-direction: row;
-  gap: 2.5em;
+  gap: 2em;
   align-items: center;
   justify-content: center;
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 .icon-link {
@@ -13,23 +13,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.3em;
+  gap: 0.5em;
   text-decoration: none;
+  padding: 0.8em 1em;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.02);
 }
 
 .icon-link .icon {
-  transition: transform 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .icon-label {
-  font-size: 0.85em;
-  font-weight: 500;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .icon-link:hover {
-  color: var(--link-hover-color);
+  color: #e81780;
+  background-color: rgba(232, 23, 128, 0.08);
 }
 
 .icon-link:hover .icon {
-  transform: scale(1.1);
+  transform: translateY(-2px);
 }
