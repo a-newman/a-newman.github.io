@@ -28,7 +28,9 @@ const CompactPublication = ({ title, authors, venue, links }) => {
     <div className="compact-publication">
       <h3 className="compact-pub-title">{title}</h3>
       <p className="compact-pub-authors">{authorList}</p>
-      <p className="compact-pub-venue"><i>{venue}</i></p>
+      <p className="compact-pub-venue">
+        <span dangerouslySetInnerHTML={{ __html: venue }}></span>
+      </p>
       <div className="compact-pub-links">
         {links.map((link, i) => {
           const Icon = IoIcons[link.iconName];
@@ -52,7 +54,7 @@ function HomePage() {
   const links = [
     { name: "CV", href: cv, icon: "IoIosDocument" },
     { name: "LinkedIn", href: "https://www.linkedin.com/in/anelise-newman/", icon: "IoLogoLinkedin" },
-    { name: "Email", href: "mailto:anelisenewman@gmail.com", icon: "IoIosMail" }
+    { name: "Scholar", href: "https://scholar.google.com/citations?user=EPlcDW0AAAAJ&hl=en", icon: "IoMdSchool" }
   ];
 
   const publications = researchData.sections.find(s => s.name === "Publications")?.items || [];

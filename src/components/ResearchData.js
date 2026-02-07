@@ -89,6 +89,121 @@ const data = {
           videoSrc: "images/turkeyes_teaser_video.mp4",
           videoAlt: "Video teaser explaining the 4 TurkEyes interfaces",
           abstract: "Eye movements provide insight into what parts of an image a viewer finds most salient, interesting, or relevant to the task at hand. Unfortunately, eye tracking data, a commonly-used proxy for attention, is cumbersome to collect. Here we explore an alternative: a comprehensive web-based toolbox for crowdsourcing visual attention. We draw from four main classes of attention-capturing methodologies in the literature. ZoomMaps is a novel <i>zoom-based</i> interface that captures viewing on a mobile phone. CodeCharts is a <i>self-reporting</i> methodology that records points of interest at precise viewing durations. ImportAnnots is an <i>annotation</i> tool for selecting important image regions, and <i>cursor-based</i> BubbleView lets viewers click to deblur a small area. We compare these methodologies using a common analysis framework in order to develop appropriate use cases for each interface. This toolbox and our analyses provide a blueprint for how to gather attention data at scale without an eye tracker."
+        },
+        {
+          title: "Human-Computer Perception: Modeling Visual Perceptual Attributes",
+          pubKey: "meng_thesis",
+          authors: [
+            "Anelise Newman"
+          ],
+          venue: "MIT Master of Engineering Thesis, 2020<br/><span style='font-style: normal;'>1st-place recipient of MIT's Artificial Intelligence and Decision Making MEng Thesis Award</span>",
+          links: [
+            {
+              name: "Thesis",
+              iconName: "IoIosPaper",
+              href: "documents/MEng_Thesis.pdf"
+            }
+          ]
+        },
+        {
+          title: "To Decay or not to Decay: Modeling Video Memorability Over Time",
+          pubKey: "memento_workshop",
+          authors: [
+            "Anelise Newman*",
+            "Camilo Fosco*",
+            "Vincent Casser*",
+            "Barry McNamara",
+            "Aude Oliva"
+          ],
+          venue: "SVRHM Workshop at NeurIPS 2019",
+          links: [
+            {
+              name: "Paper",
+              iconName: "IoIosPaper",
+              href: "documents/Memento_SVRHM_Camera_ready.pdf"
+            },
+            {
+              name: "Poster",
+              iconName: "IoMdEasel",
+              href: "documents/memento_svrhm_poster.pdf"
+            }
+          ]
+        },
+        {
+          title: "How many glances? Modeling Multi-duration Saliency",
+          pubKey: "md_saliency_workshop",
+          authors: [
+            "Camilo Fosco*",
+            "Anelise Newman*",
+            "Pat Sukhum",
+            "Yun Bin Zhang",
+            "Nanxuan Zhao",
+            "Aude Oliva",
+            "Zoya Bylinskii"
+          ],
+          venue: "SVRHM Workshop at NeurIPS 2019",
+          links: [
+            {
+              name: "Paper",
+              iconName: "IoIosPaper",
+              href: "documents/md_saliency_svrhm_camera_ready.pdf"
+            },
+            {
+              name: "Poster",
+              iconName: "IoMdEasel",
+              href: "documents/md_saliency_svrhm_poster.pdf"
+            }
+          ]
+        },
+        {
+          title: "ZoomMaps: Using Zoom to Capture Areas of Interest on Images",
+          pubKey: "zoommaps_jov",
+          authors: [
+            "Zoya Bylinskii",
+            "Anelise Newman",
+            "Matthew Tancik",
+            "Spandan Madan",
+            "Frédo Durand",
+            "Aude Oliva"
+          ],
+          venue: "Journal of Vision 2019",
+          links: [
+            {
+              name: "Poster",
+              iconName: "IoMdEasel",
+              href: "documents/zoommaps_vss_poster.pdf"
+            },
+            {
+              name: "Abstract",
+              iconName: "IoMdListBox",
+              href: "https://jov.arvojournals.org/article.aspx?articleid=2750508"
+            }
+          ]
+        },
+        {
+          title: "Effects of title wording on memory of trends in line graphs",
+          pubKey: "titles_jov",
+          authors: [
+            "Anelise Newman",
+            "Zoya Bylinskii",
+            "Steve Haroz",
+            "Spandan Madan",
+            "Frédo Durand",
+            "Aude Oliva"
+          ],
+          venue: "Journal of Vision 2018",
+          links: [
+            {
+              name: "Poster",
+              iconName: "IoMdEasel",
+              href: "documents/titles_vss_poster_2018.pdf"
+            },
+            {
+              name: "Abstract",
+              iconName: "IoMdListBox",
+              href: "https://jov.arvojournals.org/article.aspx?articleid=2699826"
+            }
+          ]
         }
       ]
     },
