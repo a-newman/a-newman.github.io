@@ -8,7 +8,7 @@ import "./Home.css";
 import researchData from "./ResearchData.js";
 import SimpleLinkList from "./SimpleLinkList.js";
 
-const CompactPublication = ({ title, authors, venue, links }) => {
+const CompactPublication = ({ title, authors, venue, links, imageSrc }) => {
   const src = require.context("../", true);
   const getPath = path => src("./" + path);
 
@@ -26,25 +26,34 @@ const CompactPublication = ({ title, authors, venue, links }) => {
 
   return (
     <div className="compact-publication">
-      <h3 className="compact-pub-title">{title}</h3>
-      <p className="compact-pub-authors">{authorList}</p>
-      <p className="compact-pub-venue">
-        <span dangerouslySetInnerHTML={{ __html: venue }}></span>
-      </p>
-      <div className="compact-pub-links">
-        {links.map((link, i) => {
-          const Icon = IoIcons[link.iconName];
-          return (
-            <a
-              key={i}
-              href={link.href.startsWith("http") ? link.href : getPath(link.href)}
-              className="compact-link"
-              title={link.name}
-            >
-              <Icon size="1.2em" />
-            </a>
-          );
-        })}
+      <div className="compact-pub-thumbnail">
+        {imageSrc ? (
+          <img src={getPath(imageSrc)} alt={title} />
+        ) : (
+          <IoIcons.IoIosPaper className="placeholder-icon" />
+        )}
+      </div>
+      <div className="compact-pub-content">
+        <h3 className="compact-pub-title">{title}</h3>
+        <p className="compact-pub-authors">{authorList}</p>
+        <p className="compact-pub-venue">
+          <span dangerouslySetInnerHTML={{ __html: venue }}></span>
+        </p>
+        <div className="compact-pub-links">
+          {links.map((link, i) => {
+            const Icon = IoIcons[link.iconName];
+            return (
+              <a
+                key={i}
+                href={link.href.startsWith("http") ? link.href : getPath(link.href)}
+                className="compact-link"
+                title={link.name}
+              >
+                <Icon size="1.2em" />
+              </a>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
@@ -66,7 +75,7 @@ function HomePage() {
         <div className="intro-text">
           <h1>Anelise Newman</h1>
           <h2>Machine Learning Engineer at Adobe Firefly</h2>
-          <h3>I build human-in-the-loop systems for evaluating and improving GenAI quality and safety. At Adobe Firefly, I build and scale our internal evaluation systems, turning noisy human feedback into evaluation rubrics and post-training datasets. Before that, I was at Stitch Fix, leading evaluation for an inventory purchasing model responsible for millions of dollars of decisions. I hold a B.S. and Master's from MIT, where I published at ECCV, CVPR, and CHI on computer vision and human perception. I combine technical depth in ML infrastructure with experience designing human-facing experiments and extracting reliable signals from noisy data.</h3>
+          <h3>I build human-in-the-loop systems for evaluating and improving GenAI quality and safety. At Adobe Firefly, I build and scale our internal evaluation systems, turning noisy human feedback into evaluation rubrics and post-training datasets. Before that, I was at Stitch Fix, leading evaluation for an inventory purchasing model responsible for millions of dollars of decisions. I hold a B.S. and Master of Engineering from MIT, where I published at ECCV, CVPR, and CHI on computer vision and human perception. I combine technical depth in ML infrastructure with experience designing human-facing experiments that provide reliable feedback signals.</h3>
         </div>
         <SimpleLinkList links={links} />
       </div>

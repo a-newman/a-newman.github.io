@@ -74,6 +74,7 @@ const data = {
             "Zoya Bylinskii"
           ],
           venue: "CHI 2020",
+          imageSrc: "images/turkeyes_thumbnail.png",
           links: [
             {
               name: "Project Website",
@@ -97,6 +98,7 @@ const data = {
             "Anelise Newman"
           ],
           venue: "MIT Master of Engineering Thesis, 2020<br/><span style='font-style: normal;'>1st-place recipient of MIT's Artificial Intelligence and Decision Making MEng Thesis Award</span>",
+          imageSrc: "images/thesis_thumbnail.png",
           links: [
             {
               name: "Thesis",
@@ -116,6 +118,7 @@ const data = {
             "Aude Oliva"
           ],
           venue: "SVRHM Workshop at NeurIPS 2019",
+          imageSrc: "images/memento_svrhm_poster.png",
           links: [
             {
               name: "Paper",
@@ -142,6 +145,7 @@ const data = {
             "Zoya Bylinskii"
           ],
           venue: "SVRHM Workshop at NeurIPS 2019",
+          imageSrc: "images/md_saliency_svrhm_poster.png",
           links: [
             {
               name: "Paper",
@@ -167,6 +171,7 @@ const data = {
             "Aude Oliva"
           ],
           venue: "Journal of Vision 2019",
+          imageSrc: "images/zoommaps_vss_poster.png",
           links: [
             {
               name: "Poster",
@@ -192,6 +197,7 @@ const data = {
             "Aude Oliva"
           ],
           venue: "Journal of Vision 2018",
+          imageSrc: "images/titles_vss_poster_2018.png",
           links: [
             {
               name: "Poster",

@@ -83,6 +83,35 @@ ul {
 
 .compact-publication {
   margin-bottom: 2.5em;
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+}
+
+.compact-pub-thumbnail {
+  flex-shrink: 0;
+  width: 180px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.compact-pub-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.placeholder-icon {
+  font-size: 3em;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.compact-pub-content {
+  flex: 1;
 }
 
 .compact-pub-title {
@@ -150,5 +179,15 @@ ul {
 
   .research-summary h2 {
     font-size: 1.6em;
+  }
+
+  .compact-publication {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .compact-pub-thumbnail {
+    width: 160px;
+    height: 100px;
   }
 }
