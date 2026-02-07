@@ -20,3 +20,5 @@ Builds a production package.
 ### `npm run deploy`
 
 Deploys website to github pages. Creates a build and pushes it to the branch gh-pages.
+
+NOTE: Repo must remain public in order to show up on GH pages.
